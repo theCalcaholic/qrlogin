@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Tobias Knöppler <tobias@knoeppler.net>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>qrlogin</id>
+    <name>Q R Login</name>
+    <summary>Allow users to login by scanning a QR code with their phone</summary>
+    <description><![CDATA[Allows users to login by scanning a QR code on the Nextcloud login page with the Nextcloud Android app on their phone.
+
+No need to type their username or password]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="tobias@knoeppler.net" homepage="https://github.com/theCalcaholic">Tobias Knöppler</author>
+    <namespace>QRLogin</namespace>
+	<types>
+		<authentication/>
+	</types>
+    <category>security</category>
+    <bugs>https://github.com/theCalcaholic/nextcloud-qrlogin</bugs>
+    <dependencies>
+        <nextcloud min-version="26" max-version="27"/>
+    </dependencies>
+</info>
